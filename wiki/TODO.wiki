@@ -1,0 +1,11 @@
+#Just a notepad
+
+= Introduction =
+This page intends to serve as as notepad for memos and others, specially TODO (not exactly issues).
+
+
+= Notes =
+
+* _Server_Passive_Checks.py_
+
+This artifact is from interface module. However, it is acting like an integration artifact, to whom vms send monitoring info. This behavior must be changed, i.e, vms must sent monitoring data to another service. Server_Passive_Checks should just update nagios info, in the interface layer.
