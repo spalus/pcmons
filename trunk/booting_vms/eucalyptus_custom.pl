@@ -11,6 +11,7 @@ $BOOT_SCRIPTS_DIR='/opt/pcmons/booting_vms';
 sub do_custom_setup(){
     $mon = do_monitoring_setup();
     $soft = do_software_setup();
+    # debugging purposes
     open(FILE,">$tmpfile/results.txt");
     print FILE "mon: $mon\n";
     print FILE "soft: $soft\n";
