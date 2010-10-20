@@ -177,6 +177,7 @@ close(OFH);
 system("$CHOWN root $tmpfile/root/.ssh/authorized_keys");
 system("$CHMOD 0600 $tmpfile/root/.ssh/authorized_keys");
 
+# call to PCMONS'custom script
 if ($mounted && ($tmpfile ne "")) {
     require "/opt/pcmons/booting_vms/eucalyptus_custom.pl";
     $res = do_custom_setup();
