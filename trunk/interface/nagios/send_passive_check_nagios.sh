@@ -1,4 +1,7 @@
 #!/bin/sh
+# Author: rafael.uriarte@gmail.com
+# Version: 1.0
+# Description: writes command msgs to the nagios pipe
 usage()
 {
     echo "Usage: $0 <hostname> <service desc> <severity> <comment>"
