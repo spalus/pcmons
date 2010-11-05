@@ -1,3 +1,8 @@
+'''
+    Authors: shirlei@gmail.com/rafael.uriarte@gmail.com
+    Description: Generates nagios config file for monitored VMs
+    Version: 1.0
+'''
 import logging, os, time, commands, datetime
 import sys
 sys.path.append('/opt/pcmons/')

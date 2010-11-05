@@ -1,3 +1,8 @@
+'''
+    Author: rafael.uriarte@gmail.com/shirlei@gmail.com
+    Description: process data and calls send_passive_check_nagios.sh
+    Version: 1.0
+'''
 import commands, logging, sys
 from SimpleXMLRPCServer import SimpleXMLRPCServer 
 from SimpleXMLRPCServer import SimpleXMLRPCRequestHandler
