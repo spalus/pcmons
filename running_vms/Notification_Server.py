@@ -27,9 +27,9 @@ class NotificationServer:
         Receives monitoring notifications from plugins running on VMs
         and records the data and/or passes to the configured interface
         '''
-        #TODO : allow multiple interfaces at a time
+        #TODO: allow multiple interfaces at a time
         if cluster_config.INTERFACE.lower() == 'nagios':
-            from interface.nagios import NagiosPassiveServer as nagios
+            from interface.nagios import Nagios_Passive_Server as nagios
             nagios_service = nagios.NagiosPassiveServer()
             return nagios_service.process_notification(data,ipAddress[0])
             
