@@ -77,7 +77,7 @@ class VM_Monitoring_Cluster_Plugin:
                 Nodes = Nodes.split('\"')
                 NC = Nodes[1].split()
                 #Return the IPs of each node
-                #e.g.: ['150.162.63.25', '150.162.63.33']
+                #e.g.: ['150.162.xx.xx', '150.162.xx.yy']
                 return NC
 
 

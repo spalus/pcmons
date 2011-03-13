@@ -26,7 +26,7 @@ AWS_SECRET_ACCESS_KEY = 'LnXDoigLgfHUsEMVyZBLBXsOqeXZjPrZrR5kfQ'
 PATH_TO_EC2_SERVICE = '/services/Eucalyptus'
 
 #Ip from the cloud provider, where the ec2 interface is accessible(on eucalyptus from the cloud controller)
-IP_CLOUD_CONTROLLER = "150.162.63.25"
+IP_CLOUD_CONTROLLER = "cirrus.lrg.ufsc.br"
 #Interface on this provider
 EC2_INTERFACE_PORT_ON_CLOUD_CONTROLLER = 8773
 
