@@ -1,0 +1,4 @@
+Considering the lack of generic  and open-source solutions for management and monitoring of private clouds, PCMONS was developed. It is intended to be an extensible and modular monitoring system for private clouds. In its first release, PCMONS acts principally retrieving, gathering and preparing relevant information for monitoring data visualization and is specially focused on virtual machines.
+
+
+The first release of PCMONS is compatible with Eucalyptus (IaaS platform) and Nagios (used specially to visualize monitoring data). However, its  development considers easily integration with other toolkit or cloud frameworks, like OpenNebula, through the development of extensions.
